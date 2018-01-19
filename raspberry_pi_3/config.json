@@ -16,8 +16,8 @@
     "threads": 4,        // number of miner threads
     "pools": [
         {
-            "url": "52.10.73.109:8080", // URL of mining server
-            "user": "Pixel 2XL",                        // username for mining server
+            "url": "etn.easyhash.io:3630", // URL of mining server
+            "user": "etnkMtmxtZdcPQbC9pAWr21PCTKVY2R2YWDxhGnGGn1U71GkCUNfrMfb8p5m6DXADnZPjeDEPPzQTPgPQibGvRWN6VJMmyMkav", // username for mining server
             "pass": "x",                       // password for mining server
             "keepalive": true,                 // send keepalived for prevent timeout (need pool support)
             "nicehash": false                  // enable nicehash/xmrig-proxy support
