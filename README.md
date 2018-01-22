@@ -7,43 +7,51 @@ Also included below is a GREAT keyboard apk. You'll like the keyboard, seriously
 
 
 https://f-droid.org/repo/com.termux_59.apk          <--TERMUX Terminal
-https://f-droid.org/repo/org.pocketworkstation.pckeyboard_1039003.apk <-- keyboard
 
-install and open termux (and the keyboard if you'd like to make your life easier)
+https://f-droid.org/repo/org.pocketworkstation.pckeyboard_1039003.apk <--keyboard
+
+Install and open termux. (the new keyboard will make your life easier)
 
 First thing!! Click `Aquire Wakelock` from the notification drop down.
-Or just type in the command(termux-wake-lock)in the list of commands below.
+Or just type in the command(termux-wake-lock)in the list of commands later.
 
-You'll see a '$' This is your terminal. You type commands into it lol.
+You'll see a '$'
+This is your terminal. You type commands into it lol.
+
+For example:
 
 'ls' lists files
 'cd' changes directory
 './' runs a program (./xmrig)
 'exit' then enter enter shuts it down
 
-The best thing to do is to fork this rep and edit yourconfig.json file
-BEFORE you install it on your phone or chromebook
-so that you don't need to use nano!!
-CHANGE THE ETN WALLET ADDRESS
+The best thing to do is to fork this rep so you can
+edit yourconfig.json file BEFORE you install it
+on your phone or chromebook
+so that you don't need to use nanotext editor!!
+(CHANGE THE ETN WALLET ADDRESS)
 
 
-
+Let's get started!!
 TYPE these commands into your terminal
 
-termux-wake-lock											(keep Termux running after screen sleeps)
 
-apt update													(gets a list of apps)
+termux-wake-lock                                  (keep Termux running after screen sleeps)
 
-apt upgrade -y												(update the list of apps)
+apt update													              (gets a list of apps)
+  
+apt upgrade -y									             			(update the list of apps)
 
-apt install git libuv-dev -y								(install apps we need so we can mine)
+apt install git libuv-dev -y				          		(install apps we need so we can mine)
 
-git clone https://github.com/mystapler/miners.git			(this installs the miners in a file called 'miners')
-
-NOW, EVERYTHING IS INSTALLED IN A FILE CALLED 'miners'
+git clone https://github.com/mystapler/miners.git (this installs the 'miners' in a file)
 
 
-Setting up your config.json file with NANO text editor thats built into your terminal!!
+
+NOW, EVERYTHING IS INSTALLED IN A FILE CALLED 'miners'!!
+
+
+Edit your config.json file with NANO text editor thats built into your terminal!!
 
 nano ~/miners/android_arm86/config.json
 
@@ -62,31 +70,26 @@ Everything else can be left the same.
 
 
 To move the cursor on regular keyboard
-
-
 Volume Up + W,A,S,D; this is to go up, left, down, and right respectively.
-
-
 Then, once the file has been edited, press
-
 Volume Down + X to "save and exit". Hit y to confirm the save, and then push enter!
 
 JESUS CHRIST!
 The file should be saved at this point! You should be ready to mine!
 
 #RUN THE MINER#
-Get on your terminal and find the miners file and you specific type of processor.
-86 for old stuff and 64 for new stuff.
+Get on your terminal and find the miner build for your type of processor.
+86 for old 32stuff and 64 for new stuff.
 My (oneplus one) phone uses a 32bit proc so I choose arm86!!
 
 Enter these commands to start mining...
 
 
-cd miners													(change dir to miners)
+cd miners										(change dir to miners)
 
-cd android_arm86										(change dir to miner you need)
+cd android_arm86						(change dir to miner you need)
 
-./xmrig														(runs the miner and ctrl-c stops it)
+./xmrig											(runs the miner and ctrl-c stops it)
 
 
 
