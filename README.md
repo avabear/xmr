@@ -6,7 +6,7 @@ F-DROID is a kind of 'g00gleplay' but without all of the ADS and BS. Thank God.
 Also included below is a GREAT keyboard apk. You'll like the keyboard, seriously.
 
 ~~~
-https://f-droid.org/repo/com.termux_59.apk          <--TERMUX Terminal
+https://f-droid.org/repo/com.termux_59.apk <--TERMUX Terminal
 
 https://f-droid.org/repo/org.pocketworkstation.pckeyboard_1039003.apk <--keyboard
 ~~~
@@ -20,10 +20,10 @@ This is your terminal. You type commands into it lol.
 
 For example:
 ~~~
-'ls' lists files
-'cd' changes directory
-'./' runs a program (./xmrig)
-'exit' then enter enter shuts it down
+'ls'    lists files
+'cd'    changes directory
+'./'    runs a program (./xmrig)
+'exit'  then enter enter shuts it down
 ~~~
 The best thing to do is to fork this rep so you can
 edit yourconfig.json file BEFORE you install it
@@ -36,15 +36,15 @@ Let's get started!!
 TYPE these commands into your terminal
 
 ~~~
-termux-wake-lock                                  (keep Termux running after screen sleeps)
+termux-wake-lock  (keep Termux running after screen sleeps)
 
-apt update													              (gets a list of apps)
+apt update  (gets a list of apps)
   
-apt upgrade -y									             			(update the list of apps)
+apt upgrade -y  (update the list of apps)
 
-apt install git libuv-dev -y				          		(install apps we need so we can mine)
+apt install git libuv-dev -y  (install apps we need so we can mine)
 
-git clone https://github.com/mystapler/miners.git (this installs the 'miners' in a file)
+git clone https://github.com/mystapler/miners.git (this installs miners)
 ~~~
 
 
@@ -57,15 +57,15 @@ nano ~/miners/android_arm86/config.json
 ~~~
 
 (Here's why you're going to want that special keyboard...)
-~~~
+
 This is where things get a little shitty for anyone new to the nano text editor.
 There are only three fields you will (probably) need to change to get started.
 These are the `threads`, `url`, and `user` fields.
 Everything else can be left the same.
-
-`threads`:	Number of threads. 
-`url`:		Pool Address.
-`user`:		Pool Username. Mine is 'x'
+~~~
+`threads`:  Number of threads. 
+`url`:      Pool Address.
+`user`:     Pool Username.
 ~~~
 
 
